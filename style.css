@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins',sans-serif;
+}
+
+.navbar{
+    position: fixed;
+    box-shadow: 0 15px 40px -20px rgb(40 44 63);
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: white;
+    padding: 0 20px;
+} 
+
+.navbar .nav{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+}
+
+.navbar .nav .left{
+    display: flex;
+    align-items: center;
+}
+
+.nav .left .logo{
+    display: block;
+    margin-right: 15px;
+}
+
+.location-div{
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.location-div .set-location{
+    font-weight: 600;
+    float: left;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+
+.set-location:hover{
+    color:orange;
+    border-bottom: 2px solid orange;
+}
+
+.location-div .choose-location{
+    display: block;
+    font-weight: 400;
+    padding: 5px;
+    margin-left: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.location-div .right{
+    position: relative;
+}
+
+.right .items{
+    display: flex;
+    align-items: center;
+}
+.right .items li{
+    list-style-type:none;
+    margin-right: 30px;
+    font: 16px;
+    font-weight: 500;
+}
+
+.items .class-item{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    position: relative;
+    height: 80px;
+    cursor: pointer;
+}
+
+.items .class-item a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+}
+.items .class-item a:hover{
+    olor:orange;
+    border-bottom: 2px solid orange;
+}
+
+.class-item a span{
+    padding:11px ;
+}
