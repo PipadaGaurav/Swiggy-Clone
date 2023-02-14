@@ -5,18 +5,21 @@
 }
 
 .navbar{
-    position: fixed;
+    /* position: fixed; */
     box-shadow: 0 15px 40px -20px rgb(40 44 63);
     top: 0;
     left: 0;
     right: 0;
     height: 80px;
+   /* border: 2px blue solid; */
     background-color: white;
     padding: 0 20px;
 } 
 
 .navbar .nav{
     position: relative;
+    max-width: 1200px;
+    min-width: 1200px;
     margin: 0 auto;
     display: flex;
     height: 80px;
@@ -93,10 +96,145 @@
     font-size: 15px;
 }
 .items .class-item a:hover{
-    olor:orange;
+    color:orange;
     border-bottom: 2px solid orange;
 }
 
 .class-item a span{
     padding:11px ;
+}
+
+.content{
+    /* border: 2px black solid; */
+    /* height: 90px; */
+    background-color: rgb(236, 235, 235);
+    display: flex;
+}
+
+.content ul{
+    display: flex;
+    list-style-type:none;
+    margin-right: 30px;
+    font: 16px;
+}
+
+.content .bar {
+    margin:10px 160px;
+}
+
+.content ul a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(126, 123, 123);
+    font-size: 10px;
+
+}
+
+.content ul a:hover{
+    color:rgb(9, 9, 9);
+    border-bottom: 2px solid orange;
+}
+
+.brown-sec{
+    background-color: #272324;
+    padding: 20px;
+    display: flex;
+    height: 250px;
+}
+
+.brown-sec .tandoori-img{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 0;
+    padding: 10px 20px;
+    flex-grow: 2;
+}
+
+.brown-sec .tandoori-content{
+    /* display: flex; */
+    /* align-items: center; */
+    color: white;
+    font-weight: 0;
+    font-size: 13px;
+    padding-top: 30px;
+    margin-top: 0.5%;
+    /* border: 2px solid green; */
+    width:400px;
+    flex-grow: 2;
+}
+
+.tandoori-content .text1{
+    color: rgb(184, 181, 181);
+    font-weight: 100;
+    font-size: 15px;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.tandoori-content .summary{
+    display: flex;
+    justify-content: space-between;
+    /* border: yellow 2px solid; */
+    width: 400px;
+}
+
+.tandoori-content .rating{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(109, 107, 107);
+    margin: 2%;
+    width: 33.33%;
+}
+
+.tandoori-content .time{
+    border-right: 2px solid rgb(109, 107, 107);
+    margin: 2%;
+    width: 33.33%;
+}
+
+.tandoori-content .rs{
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+}
+
+.offers{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    margin-top: 3.2%;
+}
+
+.offers .offer_heading {
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    position: absolute;
+    margin-top: -12px;
+    margin-left: -10px;
+    background-color: #272324;
+    
+}
+.offer-content{
+    border: 2px solid rgb(109, 107, 107);
+    margin-right: 20%;
+}
+.offer-content .coupon{
+    display: flex;
+    color: white;
+    padding: 2%;
+    
+}
+
+.offer-content .free{
+    display: flex;
+    color: white;
+    padding: 2%;
+}
+
+.desc{
+    padding-top: 4%;
 }
