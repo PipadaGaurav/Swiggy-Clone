@@ -148,9 +148,9 @@
 .brown-sec .tandoori-img{
     display: flex;
     align-items: center;
+    float: right;
     margin-left: 120px;
-    margin-right: 0;
-    padding: 10px 20px;
+    padding: 10px 0px;
     flex-grow: 2;
 }
 
@@ -164,7 +164,7 @@
     margin-top: 0.5%;
     /* border: 2px solid green; */
     width:400px;
-    flex-grow: 2;
+    flex-grow: 5;
 }
 
 .tandoori-content .text1{
